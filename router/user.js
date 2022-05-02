@@ -116,7 +116,7 @@ router.get("/api/v1/user/verify", (req, res) => {
             res.send(err);
         }
         res.send({
-            nickname: data.nickname,
+            role: data.role,
         });
     });
 });
